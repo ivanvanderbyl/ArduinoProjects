@@ -73,7 +73,7 @@ void loop()
       Serial.println("Lat: " + lat);
     }
     else{
-
+      Serial.print(c);
       //      gps.stats(&chars, &sentences, &failed_checksum);
     }
   }
